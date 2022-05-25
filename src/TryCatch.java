@@ -5,7 +5,7 @@ public class TryCatch {
         System.out.println("the value of i::");
         int i= scanner.nextInt();
         System.out.println(i);
-        int j=i+10;
+        int j=i/0;
         System.out.println("the value of j is::"+j);
         return j;
     }
